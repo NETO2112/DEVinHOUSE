@@ -1,0 +1,40 @@
+
+*{
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    /*height: 150px;*/
+    background-color: #666;
+    padding: 40px;
+}
+/*
+body {
+    display: block !important;
+    /*margin: 0; /*já vem de fábrica com 8px de margem
+}*/
+
+.menu-sup {
+    background-color: #dddddd;
+    padding: 20px;
+}
+
+.lista-sup {
+    list-style-type: none;
+    display: flex;
+}
+
+.publicidade {
+    max-width: 1000px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div {
+    max-width: 1000px;
+}

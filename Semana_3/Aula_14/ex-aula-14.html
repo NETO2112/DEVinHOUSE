@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <main>
+        <header>
+
+        </header>
+
+        <fieldset>
+
+            <legend>Cadastro:</legend> 
+            
+            <div>
+                <div>
+                    <label>Nome:</label>
+                    <select id="nome">
+                        <option value="Maori">Maori</option>
+                        <option value="Antônio">Antônio</option>
+                        <option value="Claydson">Claydson</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Endereço:</label>
+                    <input type="text" id="endereco">
+                </div>
+                
+            </div>
+
+            <div>
+
+
+                <div>
+                    <label>Tipo de Endereço:</label>
+                    <select id="tipo">
+                        <option value="Residencial">Residencial</option>
+                        <option value="Comercial">Comercial</option>
+                    </select>
+    
+                </div>
+    
+                <div>
+                    <button onclick="salvar()">Gravar</button>
+                </div>
+            </div>
+
+            
+
+            
+
+        </fieldset>
+
+        <div id="divTable">
+            <h2>Lista de Endereços</h2>
+            <table id="tabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Endereço</th>
+                    <th>Residencial/Comercial</th>
+                    <th>Ações</th>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>

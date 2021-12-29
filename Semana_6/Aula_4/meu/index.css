@@ -1,0 +1,19 @@
+#selector {
+    background: gray;
+}
+
+.timeSelector {
+    cursor: pointer;
+}
+
+#display {
+    background: green;
+}
+
+#controller {
+    background: hotpink;
+}
+
+#start {
+    cursor: pointer;
+}

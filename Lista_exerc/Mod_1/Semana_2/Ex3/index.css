@@ -1,0 +1,24 @@
+body {margin: 0;}
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+    margin: 0;
+}
+
+button {
+    margin-bottom: 10px;
+}

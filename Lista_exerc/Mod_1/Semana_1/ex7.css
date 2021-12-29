@@ -1,0 +1,32 @@
+body{
+    margin: 8px 40px;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #000;
+}
+
+.menu-sup {
+    display: flex;
+    border: 1px solid #000;
+    border-top: none;
+}
+
+.lista-sup {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+.publi {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: 10px;
+    text-align: center;
+}

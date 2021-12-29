@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Memes</title>
+    <style>
+        main {
+            min-height: 400px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        footer,
+        section {
+            margin: auto;
+            width: 50%;
+            height: 400px;
+        }
+
+        footer img {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <b>Texto superior</b>
+            <input id="superior" type="text"><br>
+
+            <b>Texto inferior</b>
+            <input id="inferior" type="text"><br>
+
+            <b>Qual o meme?</b><br>
+            Meme 1
+            <input type="radio" name="qualMeme" value="Afraid-To-Ask-Andy"><br>
+            Meme 2
+            <input type="radio" name="qualMeme" value="Ancient-Aliens"><br>
+            <button id="gerador">Gerar meme</button>
+        </section>
+
+        <footer>
+    
+        </footer>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
